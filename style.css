@@ -1,0 +1,60 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    overflow-x: hidden;
+  }
+  
+  /* Header */
+  header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #intro {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #ccc;
+  }
+  
+  /* Sections */
+  section {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    width: 250px;
+    transition: transform 0.3s;
+    backdrop-filter: blur(5px);
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
